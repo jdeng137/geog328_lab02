@@ -74,17 +74,9 @@
   }
 }
 
-/* Centers the egg image */
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
 /* Solid border */
 hr.solid {
-  border-top: 3px solid #bbb;
+  border-top: 3px solid black;
 }
 
 /* Scroll container for scrolling through images on how to make poached egg */
