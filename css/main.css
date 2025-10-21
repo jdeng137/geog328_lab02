@@ -81,3 +81,8 @@
   margin-right: auto;
   width: 50%;
 }
+
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #bbb;
+}
