@@ -76,12 +76,12 @@
 
 /* Solid border */
 hr.solid {
-  border-top: 3px solid #758B71;
+  border-top: 3px solid #8A8C94;
 }
 
 /* Scroll container for scrolling through images on how to make poached egg */
 div.scroll-container {
-  background-color: #333;
+  background-color: white;
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
