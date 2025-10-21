@@ -1,4 +1,4 @@
-/* Add a black background color to the top navigation */
+/* Add a gradient background color to the top navigation */
 .topnav {
   background-image: linear-gradient(to right, #97A894 , #758B71, #B9C4B7);
   overflow: hidden;
@@ -17,8 +17,8 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #A1A894;
+  color: #A1A894;
 }
 
 /* Add an active class to highlight the current page */
