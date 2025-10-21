@@ -1,7 +1,6 @@
 /* Add a black background color to the top navigation */
-.topnav {
-  background-color: #8FACAD;
-  overflow: hidden;
+#grad {
+  background-image: linear-gradient(to right, red , yellow);
 }
 
 /* Style the links inside the navigation bar */
