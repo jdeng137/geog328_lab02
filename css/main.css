@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-around; /* evenly spaces links */
   align-items: center; /* centers vertically */ 
-  background-image: linear-gradient(to right, #97A894 , #758B71, #B9C4B7);
+  background-image: linear-gradient(to right, #463f3a , #8a817c, #bcb8b1);
   overflow: hidden;
 }
 
