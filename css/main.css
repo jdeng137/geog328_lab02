@@ -91,28 +91,28 @@ div.scroll-container img {
   padding: 10px;
 }
 
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
+/* Fullscreen video */
+.video-page #myVideo {
   position: fixed;
   right: 0;
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-  z-index: -1;        /* behind the content */
+  z-index: -1;        /* behind content */
   object-fit: cover;  /* fills screen nicely */
 }
 
-/* Add some content at the bottom of the video/page */
-.content {
-  position: relative;  /* no longer fixed */
-  z-index: 1;          /* above the video */
+/* Overlay content only on video page */
+.video-page .content {
+  position: relative;  /* sits above video */
+  z-index: 1;
   color: #fff;
-  background: rgba(0,0,0,0.5); /* optional for readability */
+  background: rgba(0,0,0,0.5); /* semi-transparent for readability */
   padding: 20px;
 }
 
-/* Style the button used to pause/play the video */
-#myBtn {
+/* Optional: style pause/play button */
+.video-page #myBtn {
   width: 200px;
   font-size: 18px;
   padding: 10px;
@@ -122,7 +122,7 @@ div.scroll-container img {
   cursor: pointer;
 }
 
-#myBtn:hover {
+.video-page #myBtn:hover {
   background: #ddd;
   color: black;
 }
