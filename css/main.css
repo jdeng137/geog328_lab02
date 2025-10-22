@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-/* Add a gradient background color to the top navigation */
-.topnav {
-  background-image: linear-gradient(to right, #97A894 , #758B71, #B9C4B7);
-=======
 /* Set background color for entire page */
 body {
   background-color: #f8f4e3;  /* matches your navbar gradient base */
@@ -18,7 +13,6 @@ body {
   background-image: linear-gradient(to right, #a2a392, #9a998c);
   border: 3px solid #9a998c; /* 👈 add this line */
   border-radius:50px; 
->>>>>>> main_clean
   overflow: hidden;
 }
 
@@ -26,13 +20,6 @@ body {
 .topnav a {
   float: left;
   display: block;
-<<<<<<< HEAD
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 26px;
-=======
   color: #f8f4e3;
   text-align: center;
   padding: 4px 8px;
@@ -40,33 +27,22 @@ body {
   font-size: 26px;
   font-family: 'Courier New', monospace;
   flex: 1; /* makes each link take up equal width */
->>>>>>> main_clean
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-<<<<<<< HEAD
-  background-color: #A1A894;
-  color: #A1A894;
-=======
   background-color: #f8f4e3;
   color: #9a998c;
   border-radius: 40px; /* makes hover highlight rounded */
   transition: 0.3s;    /* smooth transition effect */
->>>>>>> main_clean
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-<<<<<<< HEAD
-  background-color: #A594A8;
-  color: white;
-=======
   background-color: #f8f4e3;
   color: #9a998c;
   border-radius: 40px; /* makes hover highlight rounded */
   transition: 0.3s;    /* smooth transition effect */
->>>>>>> main_clean
 }
 
 /* Hide the icon that should open and close the topnav on small screens */
@@ -85,10 +61,7 @@ body {
   /* Hide all links, except for the selected tab */
   .topnav a:not(.active) {
     display: none;
-<<<<<<< HEAD
-=======
     flex-direction: column; /* stack links vertically on small screens */
->>>>>>> main_clean
   }
 
   /* Show the icon that should open and close the topnav */
@@ -122,20 +95,12 @@ body {
 
 /* Solid border */
 hr.solid {
-<<<<<<< HEAD
-  border-top: 3px solid #8A8C94;
-=======
   border-top: 3px solid #9a998c;
->>>>>>> main_clean
 }
 
 /* Scroll container for scrolling through images on how to make poached egg */
 div.scroll-container {
-<<<<<<< HEAD
-  background-color: white;
-=======
   background-color: #9a998c;
->>>>>>> main_clean
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
