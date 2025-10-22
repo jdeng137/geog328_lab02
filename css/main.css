@@ -41,6 +41,8 @@ body {
 .topnav a.active {
   background-color: #f8f4e3;
   color: #9a998c;
+  border-radius: 40px; /* makes hover highlight rounded */
+  transition: 0.3s;    /* smooth transition effect */
 }
 
 /* Hide the icon that should open and close the topnav on small screens */
