@@ -30,14 +30,14 @@ body {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #A1A894;
-  color: #A1A894;
+  background-color: #f8f4e3;
+  color: #f8f4e3;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #A594A8;
-  color: white;
+  background-color: #f8f4e3;
+  color: f8f4e3;
 }
 
 /* Hide the icon that should open and close the topnav on small screens */
