@@ -1,5 +1,8 @@
 /* Add a gradient background color to the top navigation */
 .topnav {
+  display: flex;
+  justify-content: space-around; /* evenly spaces links */
+  align-items: center; /* centers vertically */ 
   background-image: linear-gradient(to right, #97A894 , #758B71, #B9C4B7);
   overflow: hidden;
 }
@@ -13,6 +16,7 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 26px;
+  flex: 1; /* makes each link take up equal width */
 }
 
 /* Change the color of links on hover */
@@ -43,6 +47,7 @@
   /* Hide all links, except for the selected tab */
   .topnav a:not(.active) {
     display: none;
+    flex-direction: column; /* stack links vertically on small screens */
   }
 
   /* Show the icon that should open and close the topnav */
