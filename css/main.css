@@ -93,16 +93,17 @@ div.scroll-container img {
 
 /* Wrapper to center the video under the heading */
 .video-wrapper {
-  display: flex;               /* use flex to center */
-  justify-content: center;     /* horizontal center */
-  margin: 20px 0;              /* space above and below the video */
+  display: flex;               /* center horizontally */
+  justify-content: center;
+  margin: 20px 0;              /* space above and below */
 }
 
 /* Style the video itself */
 .video-wrapper #myVideo {
-  width: 70%;                  /* adjust width as needed */
+  width: 50%;                  /* video takes 50% of page width; adjust as needed */
+  max-width: 600px;            /* optional: don’t let it get too wide */
   height: auto;                /* maintain aspect ratio */
-  border: 2px solid #fff;      /* optional white border */
-  border-radius: 8px;          /* optional rounded corners */
-  box-shadow: 0 0 15px rgba(0,0,0,0.3); /* optional subtle shadow */
+  border: 2px solid #fff;      /* optional: border */
+  border-radius: 8px;          /* optional: rounded corners */
+  box-shadow: 0 0 15px rgba(0,0,0,0.3); /* optional shadow */
 }
