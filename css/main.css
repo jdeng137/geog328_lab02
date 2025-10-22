@@ -126,14 +126,3 @@ div.scroll-container img {
   border-radius: 8px;          /* optional: rounded corners */
   box-shadow: 0 0 15px rgba(0,0,0,0.3); /* optional shadow */
 }
-
-body.references-page div.content ol li a {
-  color: #f8f4e3 !important;  /* normal link color */
-  text-decoration: underline;
-}
-
-body.references-page div.content ol li a:hover,
-body.references-page div.content ol li a:active {
-    color: #f8f4e3 !important;  /* same color when hovered/clicked */
-    text-decoration: underline;
-}
