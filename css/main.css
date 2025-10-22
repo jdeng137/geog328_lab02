@@ -98,15 +98,16 @@ div.scroll-container img {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+  z-index: -1;        /* behind the content */
+  object-fit: cover;  /* fills screen nicely */
 }
 
 /* Add some content at the bottom of the video/page */
 .content {
-  position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
+  position: relative;  /* no longer fixed */
+  z-index: 1;          /* above the video */
+  color: #fff;
+  background: rgba(0,0,0,0.5); /* optional for readability */
   padding: 20px;
 }
 
