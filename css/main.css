@@ -129,6 +129,6 @@ div.scroll-container img {
 
 /* Styling color of the links on the reference page */
 .references-page .content a {
-  color: #f8f4e3; !important;     /* choose a color you like */
+  color: #f8f4e3 !important;     /* choose a color you like */
   text-decoration: underline; /* optional */
 }
