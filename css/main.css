@@ -90,3 +90,29 @@ div.scroll-container {
 div.scroll-container img {
   padding: 10px;
 }
+
+/* Fullscreen video */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1; /* behind all content */
+  object-fit: cover;
+}
+
+/* Content overlay */
+.content {
+  position: relative; /* sits above video */
+  z-index: 1; 
+  color: #fff; /* optional: make text readable on video */
+  padding: 20px;
+}
+
+/* Optional: add semi-transparent background for readability */
+.content h1, .content ol, .content ul {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 8px;
+}
