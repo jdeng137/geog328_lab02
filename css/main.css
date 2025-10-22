@@ -11,7 +11,7 @@ body {
   justify-content: space-around; /* evenly spaces links */
   align-items: center; /* centers vertically */ 
   background-image: linear-gradient(to right, #a2a392, #9a998c);
-  border: 3px solid #463f3a; /* 👈 add this line */
+  border: 3px solid #9a998c; /* 👈 add this line */
   border-radius: 10px; 
   overflow: hidden;
 }
