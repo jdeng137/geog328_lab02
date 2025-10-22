@@ -126,3 +126,9 @@ div.scroll-container img {
   border-radius: 8px;          /* optional: rounded corners */
   box-shadow: 0 0 15px rgba(0,0,0,0.3); /* optional shadow */
 }
+
+/* Styling color of the links on the reference page */
+.references-page .content a {
+  color: #f8f4e3;      /* choose a color you like */
+  text-decoration: underline; /* optional */
+}
