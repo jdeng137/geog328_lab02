@@ -134,7 +134,7 @@ table {
 }
 
 table, th, td {
-  border: 3px solid #ddd; /* color and thickness of lines */
+  border: 3px solid #f8f4e3; /* color and thickness of lines */
 }
 
 /* Optional: padding and text alignment */
