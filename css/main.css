@@ -103,6 +103,7 @@ div.scroll-container {
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
+  border-radius: 40px; /* makes border of scroll rounded */
 }
 
 div.scroll-container img {
