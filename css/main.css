@@ -25,6 +25,7 @@ body {
   padding: 4px 8px;
   text-decoration: none;
   font-size: 26px;
+  font-family: 'Georgia', serif;
   flex: 1; /* makes each link take up equal width */
 }
 
