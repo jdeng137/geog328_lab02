@@ -127,16 +127,10 @@ div.scroll-container img {
   box-shadow: 0 0 15px rgba(0,0,0,0.3); /* optional shadow */
 }
 
-/* Styling color of the links on the references page */
 .references-page .content a:link,
-.references-page .content a:visited {
-  color: #f8f4e3 !important;  /* normal and visited link color */
-  text-decoration: underline;  /* optional */
-}
-
-/* optional: hover and active states */
+.references-page .content a:visited,
 .references-page .content a:hover,
 .references-page .content a:active {
-  color: #f8f4e3 !important;  /* same color on hover/click */
+  color: #f8f4e3 !important;
   text-decoration: underline;
 }
