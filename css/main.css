@@ -126,3 +126,19 @@ div.scroll-container img {
   border-radius: 8px;          /* optional: rounded corners */
   box-shadow: 0 0 15px rgba(0,0,0,0.3); /* optional shadow */
 }
+
+/* Make table borders visible for all cells */
+table {
+  border-collapse: collapse; /* ensures borders don’t double up */
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid #ddd; /* color and thickness of lines */
+}
+
+/* Optional: padding and text alignment */
+th, td {
+  text-align: left;
+  padding: 16px;
+}
