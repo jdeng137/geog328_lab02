@@ -91,40 +91,18 @@ div.scroll-container img {
   padding: 10px;
 }
 
-/* Centered, smaller video */
-.video-page #myVideo {
-  position: relative;       /* scrolls with content */
-  display: block;           /* makes margin auto work */
-  margin: 40px auto;        /* center horizontally and add vertical spacing */
-  width: 60%;               /* adjust width as needed */
-  height: auto;             /* maintain aspect ratio */
-  border: 3px solid #fff;   /* optional: white border */
-  border-radius: 10px;      /* optional: rounded corners */
-  box-shadow: 0 0 15px rgba(0,0,0,0.5); /* optional: subtle shadow */
-  z-index: 1;               /* above background if needed */
+/* Wrapper to center the video under the heading */
+.video-wrapper {
+  display: flex;               /* use flex to center */
+  justify-content: center;     /* horizontal center */
+  margin: 20px 0;              /* space above and below the video */
 }
 
-/* Overlay content (optional styling for text around video) */
-.video-page .content {
-  position: relative;  
-  z-index: 2;  
-  color: #000;               /* black text now works since video is smaller */
-  background: transparent;   /* remove dark overlay */
-  padding: 20px;
-}
-
-/* Optional: style pause/play button */
-.video-page #myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-}
-
-.video-page #myBtn:hover {
-  background: #ddd;
-  color: black;
+/* Style the video itself */
+.video-wrapper #myVideo {
+  width: 70%;                  /* adjust width as needed */
+  height: auto;                /* maintain aspect ratio */
+  border: 2px solid #fff;      /* optional white border */
+  border-radius: 8px;          /* optional rounded corners */
+  box-shadow: 0 0 15px rgba(0,0,0,0.3); /* optional subtle shadow */
 }
