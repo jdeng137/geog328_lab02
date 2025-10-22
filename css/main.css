@@ -33,6 +33,8 @@ body {
 .topnav a:hover {
   background-color: #f8f4e3;
   color: #9a998c;
+  border-radius: 12px; /* makes hover highlight rounded */
+  transition: 0.3s;    /* smooth transition effect */
 }
 
 /* Add an active class to highlight the current page */
