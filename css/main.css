@@ -3,8 +3,8 @@
   display: flex;
   justify-content: space-around; /* evenly spaces links */
   align-items: center; /* centers vertically */ 
-  background-image: linear-gradient(to right, #463f3a , #8a817c, #bcb8b1);
-  border: 3px solid #f4f3ee; /* 👈 add this line */
+  background-image: linear-gradient(to right, #8a817c, #bcb8b1, #f4f3ee );
+  border: 3px solid #463f3a; /* 👈 add this line */
   border-radius: 10px; 
   overflow: hidden;
 }
