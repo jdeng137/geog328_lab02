@@ -91,23 +91,25 @@ div.scroll-container img {
   padding: 10px;
 }
 
-/* Fullscreen video */
+/* Centered, smaller video */
 .video-page #myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1;        /* behind content */
-  object-fit: cover;  /* fills screen nicely */
+  position: relative;       /* scrolls with content */
+  display: block;           /* makes margin auto work */
+  margin: 40px auto;        /* center horizontally and add vertical spacing */
+  width: 60%;               /* adjust width as needed */
+  height: auto;             /* maintain aspect ratio */
+  border: 3px solid #fff;   /* optional: white border */
+  border-radius: 10px;      /* optional: rounded corners */
+  box-shadow: 0 0 15px rgba(0,0,0,0.5); /* optional: subtle shadow */
+  z-index: 1;               /* above background if needed */
 }
 
-/* Overlay content only on video page */
+/* Overlay content (optional styling for text around video) */
 .video-page .content {
-  position: relative;  /* sits above video */
-  z-index: 1;
-  color: #fff;
-  background: rgba(0,0,0,0.5); /* semi-transparent for readability */
+  position: relative;  
+  z-index: 2;  
+  color: #000;               /* black text now works since video is smaller */
+  background: transparent;   /* remove dark overlay */
   padding: 20px;
 }
 
