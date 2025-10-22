@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: space-around; /* evenly spaces links */
   align-items: center; /* centers vertically */ 
-  background-image: linear-gradient(to right, #8a817c, #bcb8b1, #f4f3ee );
+  background-image: linear-gradient(to right, #a2a392, #9a998c);
   border: 3px solid #463f3a; /* 👈 add this line */
   border-radius: 10px; 
   overflow: hidden;
