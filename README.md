@@ -12,7 +12,7 @@ The site includes:
 
 ## Live Site
 View the website here:  
-👉 [http://jdeng137.github.io/geog328_lab02/index.html](http://your_github_username.github.io/your_repository_name/index.html](http://jdeng137.github.io/geog328_lab02/index.html)
+👉 [http://jdeng137.github.io/geog328_lab02/index.html](http://jdeng137.github.io/geog328_lab02/index.html)
 
 ---
 
